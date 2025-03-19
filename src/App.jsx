@@ -5,7 +5,7 @@ import Form from './components/Form'
 function App() {
 
   return (
-    <div className='bg-gray-100 w-screen h-screen py-10'>
+    <div className='w-screen h-screen dark'>
       <Form></Form>
     </div>
   )
