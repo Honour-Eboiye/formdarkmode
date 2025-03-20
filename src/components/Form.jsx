@@ -1,11 +1,13 @@
 import React from 'react'
-import { BiMoon } from 'react-icons/bi'
+import DisplayMode from './DisplayMode'
 
-const Form = () => {
+const Form = ({identity}) => {
   return (
-    <div className='w-screen h-screen bg-gray-100  dark:bg-black'>
-      <BiMoon ></BiMoon>
-      <div className='bg-white flex flex-col items-center justify-center shadow-md w-[370px] text-black mx-auto gap-2 my-10 custom-border p-2 dark:bg-gray-900 sm:w-[400px] p-4'>
+    <div className='w-screen h-screen bg-gray-100  flex flex-col dark:bg-black'>
+      <div className='flex justify-end pr-4 pt-4'>
+        <DisplayMode info={identity} ></DisplayMode>
+      </div>
+      <div className='bg-white flex flex-col items-center justify-center shadow-md w-[350px] text-black mx-auto gap-2 my-10 custom-border p-2 dark:bg-gray-900 sm:w-[400px] p-4'>
         <h3 className='font-semibold text-sm sm:text-base dark:text-white'>MynaUI</h3>
         <h3 className='font-semibold text-sm sm:text-base dark:text-white'>Create an Account</h3>
         <p className='text-xs text-gray-500 sm:text-sm'>Get started with MynaUI today</p>
