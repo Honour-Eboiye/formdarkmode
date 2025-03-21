@@ -63,7 +63,7 @@ const Form = ({identity}) => {
   }
 
   return (
-    <div className='py-5 bg-gray-100  flex flex-col dark:bg-black'>
+    <div className='h-screen py-2 bg-gray-100  flex flex-col dark:bg-black'>
       <div className='flex justify-end pr-4 pt-4'>
         <DisplayMode info={identity} ></DisplayMode>
       </div>
