@@ -67,7 +67,7 @@ const Form = ({identity}) => {
       <div className='flex justify-end pr-4 pt-4'>
         <DisplayMode info={identity} ></DisplayMode>
       </div>
-      <div className='bg-white flex flex-col items-center justify-center shadow-md w-[350px] text-black mx-auto gap-2 custom-border p-2 my-4 dark:bg-gray-900 sm:w-[400px] p-4'>
+      <div className='bg-white flex flex-col items-center justify-center shadow-md w-[350px] text-black mx-auto gap-2 custom-border p-2 my-10 dark:bg-gray-900 sm:w-[400px] p-4'>
         <h3 className='font-semibold text-sm sm:text-base dark:text-white'>MynaUI</h3>
         <h3 className='font-semibold text-sm sm:text-base dark:text-white'>Create an Account</h3>
         <p className='text-xs text-gray-500 sm:text-sm'>Get started with MynaUI today</p>
